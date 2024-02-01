@@ -2,41 +2,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upcoming Festival</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Info-Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px 0;
+        }
+        .content h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+            .header h1 {
+                font-size: 18px;
+            }
+            .content h2 {
+                font-size: 16px;
+            }
+            .content p {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#artists">Artists</a></li>
-                <li><a href="#tickets">Tickets</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="hero">
-            <h1>Upcoming Festival</h1>
-            <p>Get ready for an unforgettable experience!</p>
-            <a href="#schedule" class="cta">Learn More</a>
-        </section>
-        <section id="schedule">
-            <h2>Schedule</h2>
-            <p>Here's a list of events and activities during the festival.</p>
-            <a href="#" class="cta">Buy Tickets</a>
-        </section>
-        <section id="artists">
-            <h2>Artists</h2>
-            <p>Here's a list of artists performing at the festival.</p>
-            <a href="#" class="cta">Learn More</a>
-        </section>
-        <section id="tickets">
-            <h2>Tickets</h2>
-            <p>Information on how to purchase tickets.</p>
-            <a href="#" class="cta">Buy Tickets</a>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright © 2
+    <div class="container">
+        <div class="header">
+            <h1>Info-Seite</h1>
+        </div>
+        <div class="content">
+            <h2>Über uns</h2>
+        </div>
     </html>
+            
